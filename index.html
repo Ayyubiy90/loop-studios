@@ -1,59 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Loopstudios landing page</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Loopstudios Landing Page</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <body>
+    <header>
+      <nav>
+        
+        <div class="logo">
+          <img src="images/logo.svg" alt="Loopstudios">
+        </div>
+        
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+        
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      
+      <div class="hero">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </header>
 
-  Immersive experiences that deliver
+    <main>
+      <section class="about">
+        
+        <div class="about-image">
+          <img src="images/desktop/image-interactive.jpg" alt="Interactive VR">
+        </div>
+        
+        <div class="about-content">
+          <h2>The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best
+            companies around the globe. Our award-winning creations have transformed businesses through digital
+            experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
 
-  The leader in interactive VR
+      <section class="creations">
+        <h2>Our creations</h2>
+        <div class="creations-grid">
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-deep-earth.jpg" alt="Deep Earth">
+            <h3>Deep Earth</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+            <h3>Night Arcade</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-soccer-team.jpg" alt="Soccer Team VR">
+            <h3>Soccer Team VR</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-grid.jpg" alt="The Grid">
+            <h3>The Grid</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-from-above.jpg" alt="From Up Above VR">
+            <h3>From Up Above VR</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis">
+            <h3>Pocket Borealis</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-curiosity.jpg" alt="The Curiosity">
+            <h3>The Curiosity</h3>
+          </div>
+          
+          <div class="creation-item">
+            <img src="images/desktop/image-fisheye.jpg" alt="Make It Fisheye">
+            <h3>Make It Fisheye</h3>
+          </div>
+        </div>
+        
+        <button class="see-all">See All</button>
+      </section>
+    </main>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+    <footer>
+      <div class="footer-content">
+        
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="Loopstudios">
+        </div>
+        
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+        
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+          <a href="#" aria-label="Twitter"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+          <a href="#" aria-label="Pinterest"><img src="images/icon-pinterest.svg" alt="Pinterest"></a>
+          <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+        </div>
+        
+        <p class="copyright">&copy; 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </footer>
 
-  Our creations
+    <script src="script.js"></script>
+  </body>
 
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
 </html>
