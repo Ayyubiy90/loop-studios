@@ -248,16 +248,43 @@ footer {
     background-color: var(--black);
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     z-index: 1000;
+    font-size: 25px;
+    padding: 0 24px;
+    overflow: hidden;
   }
 
   .nav-links.active {
     display: flex;
   }
 
+  .mobile-menu-header {
+    position: absolute;
+    top: 40px;
+    left: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 48px);
+  }
+
+  .close-btn {
+    font-size: 32px;
+    cursor: pointer;
+  }
+
   .nav-links li {
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 15px 0;
+  }
+
+  .nav-links a {
+    text-transform: uppercase;
+  }
+
+  body.menu-open {
+    overflow: hidden;
   }
 
   .hamburger {
