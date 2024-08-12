@@ -11,12 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   hamburger.addEventListener("click", toggleMenu);
-  closeBtn.addEventListener("click", toggleMenu);
 
   // Close menu when a link is clicked
-  navLinks.querySelectorAll("a").forEach((link) => {
+  mobileMenu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      navLinks.classList.remove("active");
+      mobileMenu.classList.remove("active");
       body.classList.remove("menu-open");
     });
   });
