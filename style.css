@@ -253,12 +253,12 @@ footer {
 
 .footer-logo {
   flex: 0 0 100%;
-  margin-bottom: 32px;
 }
 
 .footer-links {
   display: flex;
   list-style: none;
+  margin-top: 2rem;
 }
 
 .footer-links li {
@@ -267,6 +267,7 @@ footer {
 
 .social-icons {
   display: flex;
+  margin-top: -4.2rem;
 }
 
 .social-icons a {
@@ -276,7 +277,7 @@ footer {
 .copyright {
   flex: 0 0 100%;
   text-align: right;
-  margin-top: 24px;
+  margin-top: -1rem;
   color: var(--dark-gray);
 }
 
@@ -441,14 +442,63 @@ footer {
   }
 
   .creation-item {
-    margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
+    margin-bottom: 24px;
+    position: relative;
+  }
+
+  .creation-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .creation-item:nth-child(1)::before {
+    background-image: url("images/mobile/image-deep-earth.jpg");
+  }
+  .creation-item:nth-child(2)::before {
+    background-image: url("images/mobile/image-night-arcade.jpg");
+  }
+  .creation-item:nth-child(3)::before {
+    background-image: url("images/mobile/image-soccer-team.jpg");
+  }
+  .creation-item:nth-child(4)::before {
+    background-image: url("images/mobile/image-grid.jpg");
+  }
+  .creation-item:nth-child(5)::before {
+    background-image: url("images/mobile/image-from-above.jpg");
+  }
+  .creation-item:nth-child(6)::before {
+    background-image: url("images/mobile/image-pocket-borealis.jpg");
+  }
+  .creation-item:nth-child(7)::before {
+    background-image: url("images/mobile/image-curiosity.jpg");
+  }
+  .creation-item:nth-child(8)::before {
+    background-image: url("images/mobile/image-fisheye.jpg");
+  }
+
+  .creation-item img {
+    opacity: 0; /* Hide the desktop image */
+    width: 100%;
+    height: auto;
   }
 
   .creation-item h3 {
-    font-size: 1.5rem;
-    left: 20px;
+    position: absolute;
     bottom: 20px;
+    left: 20px;
+    color: var(--white);
+    font-size: 1.5rem;
+    z-index: 1;
+    text-align: left;
+    max-width: none;
+    width: calc(100% - 40px);
   }
 
   .see-all {
