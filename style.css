@@ -348,8 +348,8 @@ footer {
   }
 
   .close-btn img {
-    width: 24px; /* Adjust as needed */
-    height: 24px; /* Adjust as needed */
+    width: 24px;
+    height: 24px; 
   }
 
   .nav-links li {
