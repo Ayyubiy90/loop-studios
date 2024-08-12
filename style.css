@@ -88,6 +88,7 @@ nav {
   display: none;
 }
 
+/* Mobile Menu*/
 .mobile-menu {
   display: none;
   position: fixed;
@@ -109,6 +110,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+}
+
+.mobile-menu-header .logo img {
+  width: 152px;
 }
 
 .mobile-nav-links {
