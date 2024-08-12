@@ -1,15 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Mobile menu toggle
   const hamburger = document.querySelector(".hamburger");
-  const navLinks = document.querySelector(".nav-links");
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const closeBtn = document.querySelector(".close-btn");
   const body = document.body;
 
   function toggleMenu() {
-    navLinks.classList.toggle("active");
+    mobileMenu.classList.toggle("active");
     body.classList.toggle("menu-open");
   }
 
   hamburger.addEventListener("click", toggleMenu);
+  closeBtn.addEventListener("click", toggleMenu);
 
   // Close menu when a link is clicked
   mobileMenu.querySelectorAll("a").forEach((link) => {
@@ -18,11 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
       body.classList.remove("menu-open");
     });
   });
-
-  //   hamburger.addEventListener("click", () => {
-  //     navLinks.classList.toggle("active");
-  //     hamburger.classList.toggle("active");
-  //   });
 
   // Smooth scrolling for navigation links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
