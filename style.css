@@ -349,7 +349,7 @@ footer {
 
   .close-btn img {
     width: 24px;
-    height: 24px; 
+    height: 24px;
   }
 
   .nav-links li {
@@ -428,6 +428,7 @@ footer {
 
   .creations {
     padding: 0 24px 96px;
+    text-align: center;
   }
 
   .creations h2 {
@@ -437,6 +438,11 @@ footer {
 
   .creations-grid {
     grid-template-columns: 1fr;
+  }
+
+  .creation-item {
+    margin: 0 auto;
+    max-width: 100%;
   }
 
   .creation-item h3 {
@@ -462,9 +468,19 @@ footer {
     text-align: center;
   }
 
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 32px;
+  }
+
   .footer-links {
     flex-direction: column;
     margin-bottom: 48px;
+    align-items: center;
   }
 
   .footer-links li {
@@ -478,5 +494,6 @@ footer {
 
   .copyright {
     text-align: center;
+    margin-top: 16px;
   }
 }
