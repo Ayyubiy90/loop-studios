@@ -73,10 +73,11 @@ In future projects, I want to focus on:
 
 ## Author 👨‍💻
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [LinkedIn](https://www.linkedin.com/in/abdullah-a-2940b7260/)
+- Frontend Mentor - [Abdullah](https://www.frontendmentor.io/profile/Ayyubiy90)
+- Twitter - [Abdullah](https://www.twitter.com/ayyubiy10)
+- Instagram - [Abdullah](https://www.instagram.com/ayyubiy_10)
 
 ## Acknowledgments 🙏
 
-I'd like to thank the Frontend Mentor community for their feedback and support. Special thanks to [Name] for their insightful comments on improving the mobile menu functionality.
+A special thank you to Frontend Mentor for providing this challenge. I also appreciate the community for their inspiration and support!
